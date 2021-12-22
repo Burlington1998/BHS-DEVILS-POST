@@ -1,0 +1,17 @@
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+.row {
+  flex: 0%;
+}
+
+.row-feed {
+  font-size: 16px;
+}
+
+#main {
+  width: 600px;
+  display: flex;
+}

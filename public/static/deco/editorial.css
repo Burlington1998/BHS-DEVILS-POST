@@ -1,0 +1,32 @@
+fieldset {
+  margin: auto;
+  width: 500px;
+  text-align: center;
+}
+
+textarea {
+  resize: none;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+.dbar {
+  width: 500px;
+  color: white;
+  background-color: red;
+}
+
+.add-scroll {
+  overflow-y: auto;
+}
+
+#homepage:hover {
+  cursor: pointer;
+}
+
+#submissions {
+  height: 400px;
+}

@@ -1,0 +1,20 @@
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+.dbar {
+  width: 500px;
+  color: white;
+  background-color: red;
+}
+
+#homepage:hover {
+  cursor: pointer;
+}
+
+#results {
+  margin: auto;
+  width: 600px;
+  text-align: center;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BHS DEVIL'S POST</title>
+
+    <link href="/lib/98.css" rel="stylesheet" type="text/css">
+    <link href="/static/deco/editorial.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <br/>
+    <section class="center" id="editorial">
+      <h3 id="homepage"><i>BHS DEVIL'S POST</i></h3>
+      <center>
+        <h4 class="dbar">STUDENT ZONE</h4>
+        <i><b>Read the <a href="/static/law_of_the_land.txt" target="_blank">Law of the Land</a> before using the Student Zone.</b></i>
+      </center>
+      <br/>
+      <fieldset>
+        <legend>BHS Devil's Post is not responsible for any misuse of this application.</legend>
+        <p id="error"></p>
+        <form id="submission" autocomplete="off">
+          <p>Handle: <input id="username" type="text" required maxlength="120"/></p>
+          <p>Student message: </p>
+          <textarea id="msg" cols="50" rows="5"></textarea>
+          <hr/>
+          <button>Submit!</button>
+        </form>
+        <fieldset id="submissions" class="add-scroll">
+        </fieldset>
+      </fieldset>
+    </section>
+
+    <script src="/lib/jquery.min.js"></script>
+    <script src="/widget/editorial.js"></script>
+    <script src="/widget/szone.js"></script>
+  </body>
+</html>
